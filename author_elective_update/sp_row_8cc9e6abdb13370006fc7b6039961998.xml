@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Space Catalog - Container 2">bab9e6abdb13370006fc7b6039961950</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-22 13:31:44</sys_created_on>
+        <sys_id>8cc9e6abdb13370006fc7b6039961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_row_8cc9e6abdb13370006fc7b6039961998</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-22 13:31:44</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>sp_row_8cc9e6abdb13370006fc7b6039961998</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Space Catalog - Container 2">bab9e6abdb13370006fc7b6039961950</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2019-08-22 13:31:44</sys_created_on><sys_id>8cc9e6abdb13370006fc7b6039961998</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>sp_row_8cc9e6abdb13370006fc7b6039961998</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2019-08-22 13:31:44</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1293616235</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>57421c47db1b730006fc7b603996195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-22 13:31:45</sys_created_on>
+        <sys_id>40c9e6abdb13370006fc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cb986a6070000001</sys_recorded_at>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-22 13:31:45</sys_updated_on>
+        <type>Row</type>
+        <update_guid>48c9e6ab641337004b71275baddb219a</update_guid>
+        <update_guid_history>48c9e6ab641337004b71275baddb219a:-1293616235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">208a66ebdb13370006fc7b6039961904</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-22 13:35:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>7e50758f71fb4af280458bef7e96dbb9</sys_id>
+        <sys_metadata>8cc9e6abdb13370006fc7b6039961998</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>sp_row_8cc9e6abdb13370006fc7b6039961998</sys_update_name>
+        <sys_update_version display_value="sp_row_8cc9e6abdb13370006fc7b6039961998">40c9e6abdb13370006fc7b603996199b</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-22 13:35:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

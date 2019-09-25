@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sp_portal display_value="Space Portal ">25c2d0c7db1b730006fc7b6039961926</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:15:10</sys_created_on>
+        <sys_id>a1c2d0c7db1b730006fc7b6039961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Service Portal</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_a1c2d0c7db1b730006fc7b6039961928</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:15:10</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>m2m_sp_portal_catalog_a1c2d0c7db1b730006fc7b6039961928</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sp_portal display_value="Space Portal ">25c2d0c7db1b730006fc7b6039961926</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2019-08-20 13:15:10</sys_created_on><sys_id>a1c2d0c7db1b730006fc7b6039961928</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Service Portal</sys_name><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>m2m_sp_portal_catalog_a1c2d0c7db1b730006fc7b6039961928</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2019-08-20 13:15:10</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>-1979344623</payload_hash>
+        <record_name>Service Catalog.Service Portal</record_name>
+        <reverted_from/>
+        <source>c2a01633db32330006fc7b60399619f2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2019-07-29 09:49:13</sys_created_on>
+        <sys_id>2d871803db5b730006fc7b60399619ac</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>16c3d2249a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Portal Catalog</type>
+        <update_guid>e9871803755b7300d24bf62a5b2840ac</update_guid>
+        <update_guid_history>e9871803755b7300d24bf62a5b2840ac:-1979344623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Service Portal">ad871803db5b730006fc7b60399619ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:35:55</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>007c7467cac2439ca6a567bee1472290</sys_id>
+        <sys_metadata>a1c2d0c7db1b730006fc7b6039961928</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Service Portal</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_a1c2d0c7db1b730006fc7b6039961928</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_a1c2d0c7db1b730006fc7b6039961928">2d871803db5b730006fc7b60399619ac</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:35:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

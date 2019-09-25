@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>space_cat_item</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description>Display a Catalog Item</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:46:58</sys_created_on>
+        <sys_id>530a5047db5b730006fc7b60399619d5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>space_cat_item</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_page_530a5047db5b730006fc7b60399619d5</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:48:57</sys_updated_on>
+        <title>Space Catalog</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=530a5047db5b730006fc7b60399619d5"/>
+</record_update>

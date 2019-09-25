@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>sc</category>
+        <css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>space_catalog_home</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles>public</roles>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:32:42</sys_created_on>
+        <sys_id>eec694cfdb1b730006fc7b60399619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>space_catalog_home</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_page_eec694cfdb1b730006fc7b60399619d5</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:32:42</sys_updated_on>
+        <title>Space Catalog</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=eec694cfdb1b730006fc7b60399619d5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>sp_page_eec694cfdb1b730006fc7b60399619d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>sc</category><css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css><draft>false</draft><dynamic_title_structure/><id>space_catalog_home</id><internal>false</internal><public>false</public><roles>public</roles><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2019-08-20 13:32:42</sys_created_on><sys_id>eec694cfdb1b730006fc7b60399619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>space_catalog_home</sys_name><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>sp_page_eec694cfdb1b730006fc7b60399619d5</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2019-08-20 13:32:42</sys_updated_on><title>Space Catalog</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=eec694cfdb1b730006fc7b60399619d5"/></record_update>]]></payload>
+        <payload_hash>1803871437</payload_hash>
+        <record_name>space_catalog_home</record_name>
+        <reverted_from/>
+        <source>57421c47db1b730006fc7b603996195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:32:42</sys_created_on>
+        <sys_id>eac694cfdb1b730006fc7b60399619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16caf3aceaf0000001</sys_recorded_at>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:32:42</sys_updated_on>
+        <type>Page</type>
+        <update_guid>e2c694cfdb1b730043bff5b7884eb4d8</update_guid>
+        <update_guid_history>e2c694cfdb1b730043bff5b7884eb4d8:1803871437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="space_catalog_home">0be65ccfdb1b730006fc7b6039961909</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-20 13:33:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>1ff0d8491e1c4d549a5ac28cd4df0dd1</sys_id>
+        <sys_metadata>eec694cfdb1b730006fc7b60399619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>space_catalog_home</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>sp_page_eec694cfdb1b730006fc7b60399619d5</sys_update_name>
+        <sys_update_version display_value="sp_page_eec694cfdb1b730006fc7b60399619d5">eac694cfdb1b730006fc7b60399619d8</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-20 13:33:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

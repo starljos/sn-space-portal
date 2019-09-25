@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scToggleData">c045f99a0b67320014ea425663673a25</sp_angular_provider>
+        <sp_widget display_value="Space Catalog Item">5879e227db13370006fc7b60399619d0</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-08-22 13:30:24</sys_created_on>
+        <sys_id>d879e26bdb13370006fc7b6039961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scToggleData.Spaca Cat Item</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_d879e26bdb13370006fc7b6039961987</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-08-22 13:30:24</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>
