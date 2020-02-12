@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Create an account">2f7a6a02db36c01006fc7b6039961999</sc_cat_item>
+        <sc_category display_value="Administration">569aee02db36c01006fc7b6039961924</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-02-07 21:24:51</sys_created_on>
+        <sys_id>c6ba6242db36c01006fc7b6039961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Administration.Create an account</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sc_cat_item_category_c6ba6242db36c01006fc7b6039961926</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-02-07 21:24:51</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>sc_cat_item_category_c6ba6242db36c01006fc7b6039961926</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create an account">2f7a6a02db36c01006fc7b6039961999</sc_cat_item><sc_category display_value="Administration">569aee02db36c01006fc7b6039961924</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2020-02-07 21:24:51</sys_created_on><sys_id>c6ba6242db36c01006fc7b6039961926</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Administration.Create an account</sys_name><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>sc_cat_item_category_c6ba6242db36c01006fc7b6039961926</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2020-02-07 21:24:51</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1427660543</payload_hash>
+        <record_name>Administration.Create an account</record_name>
+        <reverted_from/>
+        <source>57421c47db1b730006fc7b603996195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-02-07 21:24:51</sys_created_on>
+        <sys_id>c6ba6242db36c01006fc7b6039961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170218a85840000001</sys_recorded_at>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-02-07 21:24:51</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ceba6242f636c0106ae95ccd8a539d28</update_guid>
+        <update_guid_history>ceba6242f636c0106ae95ccd8a539d28:1427660543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Administration.Create an account">d7a2b6cedb36c01006fc7b6039961904</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-02-07 21:59:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>41be6ad150f64f14ba0177649c5c1ab1</sys_id>
+        <sys_metadata>c6ba6242db36c01006fc7b6039961926</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Administration.Create an account</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent display_value="Create an account">2f7a6a02db36c01006fc7b6039961999</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c6ba6242db36c01006fc7b6039961926</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c6ba6242db36c01006fc7b6039961926">c6ba6242db36c01006fc7b6039961929</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-02-07 21:59:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

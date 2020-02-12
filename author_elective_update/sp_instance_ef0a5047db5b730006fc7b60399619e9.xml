@@ -53,7 +53,7 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=ef0a5047db5b730006fc7b60399619e9"/>
+    <sys_translated_text action="DELETE" query="documentkey=ef0a5047db5b730006fc7b60399619e9"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>

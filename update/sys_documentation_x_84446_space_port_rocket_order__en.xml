@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Rocket Order" language="en" table="x_84446_space_port_rocket_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Rocket Order</label>
+            <language>en</language>
+            <name>x_84446_space_port_rocket_order</name>
+            <plural>Rocket Orders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>marek.polasik</sys_created_by>
+            <sys_created_on>2019-10-20 18:47:45</sys_created_on>
+            <sys_id>08e7af2adb6c801006fc7b6039961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rocket Order</sys_name>
+            <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+            <sys_update_name>sys_documentation_x_84446_space_port_rocket_order__en</sys_update_name>
+            <sys_updated_by>marek.polasik</sys_updated_by>
+            <sys_updated_on>2019-10-20 18:47:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

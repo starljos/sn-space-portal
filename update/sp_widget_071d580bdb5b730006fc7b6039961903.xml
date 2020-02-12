@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope) {
+        <client_script><![CDATA[function($scope, spUtil) {
 	/* widget controller */
 	var c = this;
 
-	var g_form = $scope.page.g_form;
-	var field = $scope.page.field;
-	var stages = g_form.getValue('stages');
-
 	console.log("MAREKLOG");
-	console.log(g_form);
-	console.log(stages);
 
 
-	$scope.$watch(function () {
+	c.order = function(){
+		console.log("ORDERING!");
+		c.data.action = 'order';
+		c.server.update().then(function(){
+			c.data.action = undefined;
+		})
+	}
 
-		stages = $scope.page.g_form.getValue('stages');
-		console.log(stages);
-		return stages;
-
-	}, function (value) {
-
-		//Update local data object with data from variable   
-
-		//c.data.message = value ? value : '';
-
-	});
-
-
-}]]></client_script>
+}
+]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>img {
+  float:left;
+  display:inline;
+  width: 49%;
+  width="180";
+  height="360"
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
-        <has_preview>false</has_preview>
+        <has_preview>true</has_preview>
         <id>rocket</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {
@@ -48,8 +42,22 @@
         <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	console.log("MAREK SERVER")
+
+	if(input) {
+		
+		if(input.action == 'order') {
+
+			var gr = new GlideRecord('x_84446_space_port_rocket_order');
+			gr.initialize();
+			gr.insert();
+
+			console.log("rocket inserted")
+		}
+	}
 
 })();]]></script>
         <servicenow>false</servicenow>
@@ -57,16 +65,32 @@
         <sys_created_by>marek.polasik</sys_created_by>
         <sys_created_on>2019-08-20 14:00:41</sys_created_on>
         <sys_id>071d580bdb5b730006fc7b6039961903</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>Rocket</sys_name>
         <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
         <sys_policy/>
         <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
         <sys_update_name>sp_widget_071d580bdb5b730006fc7b6039961903</sys_update_name>
         <sys_updated_by>marek.polasik</sys_updated_by>
-        <sys_updated_on>2019-08-23 13:59:45</sys_updated_on>
+        <sys_updated_on>2019-10-20 19:45:58</sys_updated_on>
         <template><![CDATA[<div>
-<img src="rocket1.png" width="360" height="720"/>
+<img src="rocket1.png"/>
+</div>
+
+<div ng-if="c.data.stages === 2">
+<img src="rocket1.png"/>
+</div>
+
+
+<label>Click me: <input type="checkbox" ng-model="checked" ng-init="checked=true" /></label><br/>
+Show when checked:
+<span ng-if="checked" class="animate-if">
+  This is removed when the checkbox is unchecked.
+</span>
+
+<div>
+  <button type="button" ng-click="c.order()">Order</button>
+  
 </div>]]></template>
     </sp_widget>
 </record_update>

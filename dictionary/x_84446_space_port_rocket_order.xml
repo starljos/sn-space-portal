@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Rocket Order" max_length="40" name="x_84446_space_port_rocket_order" type="collection">
+        <element choice="3" default="1" label="Boosters" max_length="40" name="boosters" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-20 18:52:33</sys_created_on>
+        <sys_id>d0f8a7eadb6c801006fc7b603996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_84446_space_port_rocket_order.public</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_security_acl display_value="x_84446_space_port_rocket_order">b7d76f2adb6c801006fc7b60399619d3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d0f8a7eadb6c801006fc7b603996197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-20 18:52:33</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

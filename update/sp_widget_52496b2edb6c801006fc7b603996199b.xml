@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+	/* widget controller */
+	var c = this;
+
+	var g_form = $scope.page.g_form;
+	var field = $scope.page.field;
+	var stages = g_form.getValue('stages');
+	var newStages = 0;
+	c.data.states = stages;
+	
+	
+	console.log("MAREKLOG");
+	console.log(g_form);
+	//console.log(stages);
+
+	
+	
+	//console.log(c.data.stages);
+
+	$scope.$watch(function () {
+
+		newStages = $scope.page.g_form.getValue('stages');
+		
+		
+		c.data.stages = (newStages !== stages) ? newStages : stages;
+		server.update();
+		
+		
+		console.log(c.data.stages);
+		//return newStages;
+
+	}, function (value) {
+
+		//Update local data object with data from variable   
+
+		//c.data.message = value ? value : '';
+
+	});
+
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>img {
+  float:left;
+  display:inline;
+  width: 49%;
+  width="180";
+  height="360"
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>rocket_order</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Rocket Order</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	console.log("MAREK SERVER")
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2019-10-20 18:53:54</sys_created_on>
+        <sys_id>52496b2edb6c801006fc7b603996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rocket Order</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_widget_52496b2edb6c801006fc7b603996199b</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2019-10-20 18:53:54</sys_updated_on>
+        <template><![CDATA[<div>
+<img src="rocket1.png"/>
+</div>
+
+<div ng-if="c.data.stages === 2">
+<img src="rocket1.png"/>
+</div>
+
+
+<label>Click me: <input type="checkbox" ng-model="checked" ng-init="checked=true" /></label><br/>
+Show when checked:
+<span ng-if="checked" class="animate-if">
+  This is removed when the checkbox is unchecked.
+</span>
+
+<div>
+  {{::c.data.stages}}
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -35,7 +35,7 @@
         <sys_updated_on>2019-08-20 13:32:42</sys_updated_on>
         <title>Space Catalog</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=eec694cfdb1b730006fc7b60399619d5"/>
+    <sys_translated_text action="DELETE" query="documentkey=eec694cfdb1b730006fc7b60399619d5"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
