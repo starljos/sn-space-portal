@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -12,6 +13,7 @@
         <description><![CDATA[<p>No big deal, just order the damn rocket</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
+        <flow_designer_flow/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>space-item-added-tooltip.html</id>
+        <sp_widget display_value="Space Header Menu">449f933fdb6f041006fc7b603996191b</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 18:34:13</sys_created_on>
+        <sys_id>f100673fdb6f041006fc7b60399619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>space-item-added-tooltip.html</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_ng_template_f100673fdb6f041006fc7b60399619ce</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 18:34:13</sys_updated_on>
+        <template><![CDATA[<div ng-click="toggleCart()" class="item-added-tooltip">${Item has been added to your cart.}</div>]]></template>
+    </sp_ng_template>
+</record_update>

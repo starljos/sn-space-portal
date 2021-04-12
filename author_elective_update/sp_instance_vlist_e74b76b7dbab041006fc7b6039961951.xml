@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bc4bfa37dbab041006fc7b60399619d4</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:53:46</sys_created_on>
+        <sys_id>e74b76b7dbab041006fc7b6039961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_instance_vlist_e74b76b7dbab041006fc7b6039961951</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:53:46</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=e74b76b7dbab041006fc7b6039961951"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>sp_instance_vlist_e74b76b7dbab041006fc7b6039961951</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">bc4bfa37dbab041006fc7b60399619d4</sp_column><sp_page/><sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2020-03-21 15:53:46</sys_created_on><sys_id>e74b76b7dbab041006fc7b6039961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>sp_instance_vlist_e74b76b7dbab041006fc7b6039961951</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2020-03-21 15:53:46</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=e74b76b7dbab041006fc7b6039961951"/></record_update>]]></payload>
+        <payload_hash>-544615132</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>57421c47db1b730006fc7b603996195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:53:46</sys_created_on>
+        <sys_id>6f4b76b7dbab041006fc7b6039961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170fdccdcb60000001</sys_recorded_at>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:53:46</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>674b76b7c5ab04103ddc11ee6cdc3753</update_guid>
+        <update_guid_history>674b76b7c5ab04103ddc11ee6cdc3753:-544615132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ef8bfa77dbab041006fc7b60399619a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:54:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>31b33b5fadfd4cc1869ecfadd0c80889</sys_id>
+        <sys_metadata>e74b76b7dbab041006fc7b6039961951</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_e74b76b7dbab041006fc7b6039961951</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_e74b76b7dbab041006fc7b6039961951">6f4b76b7dbab041006fc7b6039961953</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:54:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

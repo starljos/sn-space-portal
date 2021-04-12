@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>github-square</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Properties</label>
+        <order>900</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="Space Portal Header Menu">f83510cbdb1b730006fc7b6039961903</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:57:59</sys_created_on>
+        <sys_id>0d4cfa77dbab041006fc7b6039961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_0d4cfa77dbab041006fc7b6039961931</sys_update_name>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:57:59</sys_updated_on>
+        <table/>
+        <type>url</type>
+        <url>https://github.com/starljos</url>
+        <url_target>target="_blank"</url_target>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=0d4cfa77dbab041006fc7b6039961931"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Space Portal">1b421c47db1b730006fc7b6039961959</application>
+        <file_path/>
+        <instance_id>c6c265c7db783f0042b321c40596199a</instance_id>
+        <instance_name>dev81817</instance_name>
+        <name>sp_rectangle_menu_item_0d4cfa77dbab041006fc7b6039961931</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph>github-square</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Properties</label><order>900</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page/><sp_rectangle_menu display_value="Space Portal Header Menu">f83510cbdb1b730006fc7b6039961903</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>marek.polasik</sys_created_by><sys_created_on>2020-03-21 15:57:59</sys_created_on><sys_id>0d4cfa77dbab041006fc7b6039961931</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Properties</sys_name><sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package><sys_policy/><sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope><sys_update_name>sp_rectangle_menu_item_0d4cfa77dbab041006fc7b6039961931</sys_update_name><sys_updated_by>marek.polasik</sys_updated_by><sys_updated_on>2020-03-21 15:57:59</sys_updated_on><table/><type>url</type><url>https://github.com/starljos</url><url_target>target="_blank"</url_target></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=0d4cfa77dbab041006fc7b6039961931"/></record_update>]]></payload>
+        <payload_hash>-1479084654</payload_hash>
+        <record_name>Properties</record_name>
+        <reverted_from/>
+        <source>57421c47db1b730006fc7b603996195c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:57:59</sys_created_on>
+        <sys_id>d54cfa77dbab041006fc7b6039961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170fdd0b8260000001</sys_recorded_at>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:57:59</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>dd4cfa77acab0410a65f3ad97cb1ac33</update_guid>
+        <update_guid_history>dd4cfa77acab0410a65f3ad97cb1ac33:-1479084654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Properties">066c76b7dbab041006fc7b603996191b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marek.polasik</sys_created_by>
+        <sys_created_on>2020-03-21 15:58:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>4b8474f6e43f4dfe8514565259f2bdc1</sys_id>
+        <sys_metadata>0d4cfa77dbab041006fc7b6039961931</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
+        <sys_scope_delete display_value="">a2c4a07abbd846eaae60c02498142521</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_0d4cfa77dbab041006fc7b6039961931</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_0d4cfa77dbab041006fc7b6039961931">d54cfa77dbab041006fc7b6039961934</sys_update_version>
+        <sys_updated_by>marek.polasik</sys_updated_by>
+        <sys_updated_on>2020-03-21 15:58:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

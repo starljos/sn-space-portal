@@ -7,20 +7,20 @@
         <desktop_home_page>space_catalog</desktop_home_page>
         <desktop_image>8db4d48bdb1b730006fc7b60399619a9</desktop_image>
         <editors/>
-        <enable_wish_list>true</enable_wish_list>
+        <enable_wish_list>false</enable_wish_list>
         <manager/>
         <sys_class_name>sc_catalog</sys_class_name>
         <sys_created_by>marek.polasik</sys_created_by>
         <sys_created_on>2019-08-20 13:23:19</sys_created_on>
         <sys_id>41a4188bdb1b730006fc7b6039961996</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Space Catalog</sys_name>
         <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
         <sys_policy/>
         <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
         <sys_update_name>sc_catalog_41a4188bdb1b730006fc7b6039961996</sys_update_name>
         <sys_updated_by>marek.polasik</sys_updated_by>
-        <sys_updated_on>2019-08-20 13:40:09</sys_updated_on>
+        <sys_updated_on>2020-02-18 18:33:53</sys_updated_on>
         <title>Space Catalog</title>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=41a4188bdb1b730006fc7b6039961996"/>

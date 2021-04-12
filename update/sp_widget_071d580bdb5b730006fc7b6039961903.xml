@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope, spUtil) {
+        <client_script><![CDATA[function($scope) {
 	/* widget controller */
-	var c = this;
+var c = this;
 
-	console.log("MAREKLOG");
+	//var g_form = $scope.page.g_form;
+	//var field = $scope.page.field;
+	//var stages = g_form.getValue('stages');
+	//var newStages = 0;
+	//c.data.states = stages;
 
 
-	c.order = function(){
+	$scope.$watch(function () {
+		
+		console.log("stages watcher!")
+		newStages = $scope.page.g_form.getValue('stages');
+		c.data.stages = (newStages !== stages) ? newStages : stages;
+
+	}, function (value) {
+
+		//Update local data object with data from variable   
+
+		c.data.message = value ? value : '';
+
+	});
+
+	$scope.order = function(){
 		console.log("ORDERING!");
 		c.data.action = 'order';
 		c.server.update().then(function(){
@@ -16,8 +34,7 @@
 		})
 	}
 
-}
-]]></client_script>
+}]]></client_script>
         <controller_as>c</controller_as>
         <css>img {
   float:left;
@@ -45,16 +62,17 @@
 	/* populate the 'data' object */
 	/* e.g., data.table = $sp.getValue('table'); */
 
-	console.log("MAREK SERVER")
-
+	console.log("MAREK SERVER");
+	console.log(JSON.stringify(input));
+	
 	if(input) {
-		
+
 		if(input.action == 'order') {
 
 			var gr = new GlideRecord('x_84446_space_port_rocket_order');
 			gr.initialize();
+			gr.boosters = input.stages;
 			gr.insert();
-
 			console.log("rocket inserted")
 		}
 	}
@@ -65,14 +83,14 @@
         <sys_created_by>marek.polasik</sys_created_by>
         <sys_created_on>2019-08-20 14:00:41</sys_created_on>
         <sys_id>071d580bdb5b730006fc7b6039961903</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name>Rocket</sys_name>
         <sys_package display_value="Space Portal" source="x_84446_space_port">1b421c47db1b730006fc7b6039961959</sys_package>
         <sys_policy/>
         <sys_scope display_value="Space Portal">1b421c47db1b730006fc7b6039961959</sys_scope>
         <sys_update_name>sp_widget_071d580bdb5b730006fc7b6039961903</sys_update_name>
         <sys_updated_by>marek.polasik</sys_updated_by>
-        <sys_updated_on>2019-10-20 19:45:58</sys_updated_on>
+        <sys_updated_on>2020-04-03 11:42:32</sys_updated_on>
         <template><![CDATA[<div>
 <img src="rocket1.png"/>
 </div>
@@ -89,8 +107,12 @@ Show when checked:
 </span>
 
 <div>
-  <button type="button" ng-click="c.order()">Order</button>
+  <button type="button" ng-click="order()">Order</button>
   
+</div>
+
+<div>
+Results: {{c.data.results || ""}}
 </div>]]></template>
     </sp_widget>
 </record_update>

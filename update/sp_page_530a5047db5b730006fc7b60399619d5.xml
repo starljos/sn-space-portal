@@ -6,8 +6,10 @@
         <dynamic_title_structure/>
         <id>space_cat_item</id>
         <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
         <public>true</public>
         <roles>public</roles>
+        <seo_script/>
         <short_description>Display a Catalog Item</short_description>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>marek.polasik</sys_created_by>
@@ -22,6 +24,7 @@
         <sys_updated_by>marek.polasik</sys_updated_by>
         <sys_updated_on>2020-02-07 21:38:19</sys_updated_on>
         <title>Space Catalog</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=530a5047db5b730006fc7b60399619d5"/>
 </record_update>
